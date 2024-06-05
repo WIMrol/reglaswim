@@ -3,7 +3,6 @@
 .wim-main-container {
     width: 500px;
     position: relative;
-    border-radius: 10px;
     background: rgb(250 245 255 / 30%);
     backdrop-filter: blur(10px);
     padding: 20px;
@@ -20,7 +19,8 @@
     padding: 5px;
     position: relative;
     height: 50px;
-    gap: 60px;
+    gap: 10px;
+    border-radius: 10px;
 }
 
 .wim-tab {
@@ -44,6 +44,7 @@
     align-items: center;
     justify-content: center;
     overflow: auto;
+    border-radius: 10px;
 }
 
 .wim-vertical-text {
@@ -74,7 +75,7 @@ input[type="radio"]:checked + .wim-content {
 }
 
 .wim-item {
-    margin-bottom: -30px;
+    margin-bottom: -40px;
 }
 
 .wim-number {
@@ -101,23 +102,24 @@ input[type="radio"]:checked + .wim-content {
 .wim-title {
     display: flex;
     align-items: center;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
     text-transform: uppercase;
     position: relative;
     right: -43px;
-    bottom: 44px;
+    bottom: 35px;
 }
 
 .wim-text {
 font-size: 10px;
-    color: gray;
+    color: #747474;
     line-height: 1.2;
     display: flex;
     width: 450px;
     bottom: 35px;
     position: relative;
     text-align: justify;
+    margin: 10px;
 }
 
 
