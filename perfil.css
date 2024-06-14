@@ -9,10 +9,16 @@
 .perfils-top > .wim-mp > a, .perfils-top > .profile-link{display: flex; align-items: center; justify-content: center; width: 30px; height: 30px; background: linear-gradient(to right, #f5eefc, #dcccec); border-radius: 50%; color: #fff; text-decoration: none; padding: 5px; right: 20px; position: relative; margin-right: 20px;}
 .perfils-top > .wim-mp > a:hover, .perfils-top > .profile-link:hover{background-color: #b0a8d5;}
 .perfils-top > .wim-mp > a > em, .perfils-top > .profile-link > em{font-size: 16px; color: #a998b0;}
-.icofont-ui-search::before{content:"/ec76";}
-.icofont-page::before{content:"/ec7c";}
-.icofont-pencil-alt-1::before{content:"/ec89";}
-.ppfield {position:relative;}
+.fa-search::before {
+    content: "\f002"; /* Código Unicode para el icono de búsqueda en Font Awesome */
+}
+.fa-file::before {
+    content: "\f15b";
+}
+.fa-pencil-alt::before {
+    content: "\f303";
+}
+.ppfield {display: flex;justify-content: space-between;align-items: center;padding: 0 !important;width: auto !important;box-sizing: border-box; margin-bottom: 0 !important;}
 /* portada, icon */
 div#profile_field_17{background: rgba(255, 255, 255, 0.5); backdrop-filter: blur(10px); position: relative; display: flex; justify-content: center; width: 100%;}
 div#profile_field_17::after{content:' '; position: absolute; bottom: 0; left: 0; width: 100%; height: 80px; background: #fff;width: 100%; height: 100px; background: #fff; top: 149px;}
@@ -105,9 +111,3 @@ dl.details dd{margin-left: 20px;}
 .texto-tres i{margin-right: 10px;}
 div#profile_field_32{display: flex; position: absolute; bottom: 0; right: 5px; margin: 10px;}
 div#profile_field_33{display: flex; position: absolute; bottom: 0; right: 5px; margin: 10px; z-index: 1;}
-
-.ppfield {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-sizing: border-box; }
