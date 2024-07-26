@@ -133,9 +133,12 @@ div#profile_field_24{display: flex; position: absolute; bottom: 0; right: 185px;
 div#profile_field_26{display: flex; position: absolute; top: 150px; z-index: 1; left: 510px;}
 div#profile_field_-12{display: none;}
 div#profile_field_1 img{width: 100px; height: 100px; border-radius: 50%;}
-div#profile_field_28{z-index: 1; display: flex; position: absolute; top: 349px; right: 30px; border: 10px solid; border-image: linear-gradient(to right, lavender, white) 1;}
-div#profile_field_27{z-index: 1; display: flex; position: absolute; top: 511px; right: 30px; border: 10px solid; border-image: linear-gradient(to right, lavender, white) 1;}
-div#profile_field_2{z-index: 1; display: flex; position: absolute; top: 675px; right: 30px; border: 10px solid; border-image: linear-gradient(to right, lavender, white) 1;}
+div#profile_field_28{z-index: 1; display: flex; position: absolute; top: 349px; right: 30px; border: 10px solid #f6f2fd61;
+    outline: 1px solid white;}
+div#profile_field_27{z-index: 1; display: flex; position: absolute; top: 511px; right: 30px; border: 10px solid #f6f2fd61;
+    outline: 1px solid white;}
+div#profile_field_2{z-index: 1; display: flex; position: absolute; top: 675px; right: 30px; border: 10px solid #f6f2fd61;
+    outline: 1px solid white;}
 /* Estilo base para todos los campos de contacto */
 dl#field_id{display: none;}
 .wim-field{display: flex; align-items: flex-end; justify-content: flex-end; padding: 3px; border: 2px solid rgb(232 232 251 / 46%); border-bottom-left-radius: 20px; background-color: rgba(255, 255, 255, 0.2); backdrop-filter: blur(10px); width: 150px; transition: transform 0.3s ease, box-shadow 0.3s ease; position: relative; bottom: 763px; border-bottom-right-radius: 20px; flex-wrap: nowrap; flex-direction: row-reverse; margin: 5px;}
