@@ -18,9 +18,53 @@
 .fa-pencil-alt::before {
     content: "\f303";
 }
+
+div#profile_field_17 img {
+    width: 1197px;
+    height: 150px;
+    object-fit: cover;
+}
+
+div#profile_field_1 img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+div#profile_field_22 img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+}
+
+div#profile_field_28 img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+div#profile_field_2 img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+div#profile_field_27 img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+div#profile_field_19 img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+}
+
+
 .ppfield {display: flex;justify-content: space-between;align-items: center;padding: 0 !important;width: auto !important;box-sizing: border-box; margin-bottom: 0 !important;}
 /* portada, icon */
-div#profile_field_17{background: rgba(255, 255, 255, 0.5); backdrop-filter: blur(10px); position: relative; display: flex; justify-content: center; width: 100%;}
+div#profile_field_17{position: relative; display: flex; justify-content: center; width: 100%;}
 div#profile_field_17::after{content:' '; position: absolute; bottom: 0; left: 0; width: 100%; height: 80px; background: #fff;width: 100%; height: 100px; background: #fff; top: 149px;}
 div#profile_field_1{border-radius: 10px; padding: 10px; position: absolute; top: 165px; left: 555px; display: flex;}
 /* info wons, mensajes, animo, prestigio */
