@@ -107,12 +107,12 @@ div#profile_field_-4{position: absolute; width: 606px; height: 15px; background:
 .wim-invt2{font-family: 'San Francisco Text', sans-serif; font-size: 15px; text-transform: uppercase; font-weight: bold; margin-bottom: 10px; border-bottom: 1px solid #a998b0; width: 100%; text-align: center; padding-bottom: 5px; display: flex; align-items: center; justify-content: flex-start; color: #a998b0; letter-spacing: 2px;}
 .wim-invt2 i{margin-right: 5px; font-size: 12px;}
 #profile_field_15{display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: flex-start; margin: 15px; padding: 10px 10px 10px 20px; width: 430px; height: 140px; position: absolute; bottom: 410px; overflow: auto;}
-#profile_field_15 img{width: 40px; height: 40px; margin: 3px;}
+#profile_field_15 img{width: 40px; height: 40px;}
 .wim-invent2{display: flex; flex-direction: column; align-items: center; margin: 5px; background: rgba(255, 255, 255, 0.7); border-radius: 10px; padding: 20px; width: 450px; height: 200px; position: absolute; bottom: 390px; overflow: auto; right: 0px;}
 .wim-invt3{font-family: 'San Francisco Text', sans-serif; font-size: 15px; text-transform: uppercase; font-weight: bold; margin-bottom: 10px; border-bottom: 1px solid #a998b0; width: 100%; text-align: center; padding-bottom: 5px; display: flex; align-items: center; justify-content: flex-start; color: #a998b0; letter-spacing: 2px;}
 .wim-invt3 i{margin-right: 5px; font-size: 12px;}
 #profile_field_16{display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: flex-start; margin: 15px; padding: 10px 10px 10px 20px; width: 430px; height: 140px; position: absolute; bottom: 410px; overflow: auto; right: 10px;}
-#profile_field_16 img{width: 40px; height: 40px; margin: 3px;}
+#profile_field_16 img{width: 40px; height: 40px;}
 .wim-invent3{display: flex; flex-direction: column; align-items: center; margin: 5px; background: rgba(255, 255, 255, 0.7); border-radius: 10px; padding: 20px; width: 150px; position: absolute; bottom: 390px; overflow: auto; left: 499px; height: 200px;}
 .wim-invt4{font-family:'San Francisco Text', sans-serif; font-size: 15px; text-transform: uppercase; font-weight: bold; margin-bottom: 10px; border-bottom: 1px solid #a998b0; width: 100%; text-align: center; padding-bottom: 5px; display: flex; align-items: center; justify-content: flex-start; color: #a998b0; letter-spacing: 2px;}
 .wim-invt3 i{margin-right: 5px; font-size: 12px;}
